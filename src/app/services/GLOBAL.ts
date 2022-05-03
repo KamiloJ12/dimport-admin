@@ -1,3 +1,3 @@
 export var GLOBAL = {
-    url : 'https://api.dimport.online/api/' 
+    url : 'https://dimport-back.herokuapp.com/api/' 
 };
