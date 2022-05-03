@@ -3,12 +3,11 @@
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
-        "start": "node sever",
+        "start": "node sever.js",
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "postinstall": "ng build",
-        "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
+        "postinstall": "ng build"
     },
     "engines": {
         "node": "16.3.0",
@@ -38,12 +37,13 @@
         "rxjs": "~6.6.0",
         "tslib": "^2.1.0",
         "uuid": "^8.3.2",
-        "zone.js": "~0.11.4"
+        "zone.js": "~0.11.4",
+        "@angular/cli": "~12.2.5",
+        "@angular/compiler-cli": "~12.2.5",
+        "typescript": "~4.2.3"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "~12.2.5",
-        "@angular/cli": "~12.2.5",
-        "@angular/compiler-cli": "~12.2.5",
         "@types/file-saver": "^2.0.3",
         "@types/jasmine": "~3.6.0",
         "@types/node": "^12.11.1",
@@ -52,7 +52,6 @@
         "karma-chrome-launcher": "~3.1.0",
         "karma-coverage": "~2.0.3",
         "karma-jasmine": "~4.0.0",
-        "karma-jasmine-html-reporter": "^1.7.0",
-        "typescript": "~4.2.3"
+        "karma-jasmine-html-reporter": "^1.7.0"  
     }
 }
