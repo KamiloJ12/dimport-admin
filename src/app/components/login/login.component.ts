@@ -53,6 +53,7 @@ export class LoginComponent implements OnInit {
 
             localStorage.setItem('token', response.token);
             localStorage.setItem('_id', response.data._id);
+            
 
             this._router.navigate(['/panel/clientes']);
           }
